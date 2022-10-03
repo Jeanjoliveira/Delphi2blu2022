@@ -1,0 +1,73 @@
+unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+
+type
+  Tfrmexercicio28 = class(TForm)
+    MainMenu1: TMainMenu;
+    Funcionrios1: TMenuItem;
+    Salario2: TMenuItem;
+    otal1: TMenuItem;
+    Funcionario1: TMenuItem;
+    Funcionario2: TMenuItem;
+    Funcionario3: TMenuItem;
+    NovoSalario1: TMenuItem;
+    procedure Funcionario1Click(Sender: TObject);
+    procedure Salario2Click(Sender: TObject);
+    procedure otal1Click(Sender: TObject);
+  private
+    Fsalariom, Ftotal : currency;
+
+
+  public
+    { Public declarations }
+  end;
+
+var
+  frmexercicio28: Tfrmexercicio28;
+
+
+implementation
+
+{$R *.dfm}
+
+
+procedure Tfrmexercicio28.Salario2Click(Sender: TObject);
+
+
+begin
+  if fsalariom = 1212 then
+
+end;
+
+procedure Tfrmexercicio28.otal1Click(Sender: TObject);
+  var
+    xporcentagem : currency;
+
+begin
+  if ftotal = (xporcentagem + fsalariom) then
+
+
+end;
+procedure Tfrmexercicio28.Funcionario1Click(Sender: TObject);
+  var
+    xfuncionario1, xfuncionario2, xfuncionario3: string;
+
+begin
+    if xfuncionario1 = (fsalariom < 3) and
+    if xfuncionario2 = (fsalariom >=3) and (fsalariom<=10)
+    and if xfuncionario3 = (fsalariom >10) and (fsalariom<=20)
+
+
+    xfuncinario1 *(50 /100)
+    Ftotal =  xfuncinario2 *(20 /100)
+    Ftotal =  xfuncinario3 *(15 /100)
+
+
+
+end;
+end.

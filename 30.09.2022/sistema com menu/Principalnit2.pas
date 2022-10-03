@@ -1,0 +1,65 @@
+unit Principalnit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+
+type
+  TForm2 = class(TForm)
+    MainMenu1: TMainMenu;
+    Cadastros1: TMenuItem;
+    Sair1: TMenuItem;
+    Clientes1: TMenuItem;
+    Fornecedores1: TMenuItem;
+    Produtos1: TMenuItem;
+    procedure Clientes1Click(Sender: TObject);
+    procedure Fornecedores1Click(Sender: TObject);
+    procedure Produtos1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+uses
+  CLIENTESUnit1, FORNECEDORESUnit3, PROJETOSUnit4;
+
+{$R *.dfm}
+
+procedure TForm2.Clientes1Click(Sender: TObject);
+begin
+  if FRMCLIENTES = nil  then
+     FRMCLIENTES := TFRMCLIENTES.create(Self);
+
+     FRMCLIENTES.Show;
+
+
+end;
+
+procedure TForm2.Fornecedores1Click(Sender: TObject);
+begin
+   if FRMFORNECEDORES = nil  then
+      FRMFORNECEDORES := TFRMFORNECEDORES.create(Self);
+
+      FRMFORNECEDORES.Show;
+
+end;
+
+procedure TForm2.Produtos1Click(Sender: TObject);
+begin
+  if FRMPROJETOS = nil  then
+     FRMPROJETOS := TFRMPROJETOS.create(Self);
+
+     FRMPROJETOS.Show;
+
+
+end;
+
+end.

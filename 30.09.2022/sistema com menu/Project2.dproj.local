@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/13 18:40:13.000.974,=C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/13 19:05:43.000.857,=C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 18:50:09.000.793,=C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/09/30 18:51:08.000.696,C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit2.dfm</Transaction>
+    <Transaction>2022/09/30 18:51:08.000.696,C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit2.pas</Transaction>
+    <Transaction>2022/09/30 18:51:10.000.104,C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Project2.dproj</Transaction>
+    <Transaction>2022/09/30 18:58:23.000.174,=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 18:58:42.000.859,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit1.dfm=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\ClienteUnit1.dfm</Transaction>
+    <Transaction>2022/09/30 18:58:42.000.859,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit1.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\ClienteUnit1.pas</Transaction>
+    <Transaction>2022/09/30 19:10:09.490,=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:11:36.624,=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit3.pas</Transaction>
+    <Transaction>2022/09/30 19:12:25.815,=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit4.pas</Transaction>
+    <Transaction>2022/09/30 19:14:00.694,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\FORNECEDORESUnit3.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit3.pas</Transaction>
+    <Transaction>2022/09/30 19:14:00.694,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\FORNECEDORESUnit3.dfm=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit3.dfm</Transaction>
+    <Transaction>2022/09/30 19:14:06.217,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\FORNECEDORESUnit4.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit4.pas</Transaction>
+    <Transaction>2022/09/30 19:14:06.217,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\FORNECEDORESUnit4.dfm=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit4.dfm</Transaction>
+    <Transaction>2022/09/30 19:50:57.219,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\PROJETOSUnit4.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\FORNECEDORESUnit4.pas</Transaction>
+    <Transaction>2022/09/30 19:50:57.219,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\PROJETOSUnit4.dfm=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\FORNECEDORESUnit4.dfm</Transaction>
+    <Transaction>2022/09/30 19:51:11.937,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\CLIENTESUnit1.dfm=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit1.dfm</Transaction>
+    <Transaction>2022/09/30 19:51:11.937,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\CLIENTESUnit1.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:51:55.582,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\MENUnit2.dfm=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit2.dfm</Transaction>
+    <Transaction>2022/09/30 19:51:55.582,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\MENUnit2.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Unit2.pas</Transaction>
+    <Transaction>2022/09/30 19:57:49.646,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Principalnit2.dfm=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\MENUnit2.dfm</Transaction>
+    <Transaction>2022/09/30 19:57:49.646,C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\Principalnit2.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\30.09.2022\MENUnit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

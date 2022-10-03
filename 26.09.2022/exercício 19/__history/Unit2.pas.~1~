@@ -1,0 +1,64 @@
+unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    edtmemo1: TMemo;
+    edtmemo2: TMemo;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    btmresult: TButton;
+    btmlista: TButton;
+    procedure btmresultClick(Sender: TObject);
+    procedure btmlistaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.btmlistaClick(Sender: TObject);
+  var
+     xmasculino, xfeminino : string;
+    xsexo, xcontador: integer;
+  begin
+   xcontador := 0 ;
+
+
+  if (xmasculino = xsexo) then
+    (edtmemo2.lines.add +1)
+
+
+   else
+    (edtmemo2.lines.add = feminino) then
+    xcontador = +1 ('O total de Mulheres é  ')
+
+end;
+
+procedure TForm2.btmresultClick(Sender: TObject);
+  var
+    xnome , xsexo : string;
+
+  begin
+      xnome := inputbox('Informar','Informe um nome','');
+      xsexo := (inputbox('Informar','Informe o Sexo',''));
+
+      edtmemo1.lines.add(xnome);
+      edtmemo2.lines.add (xsexo);
+
+  end;
+
+end.

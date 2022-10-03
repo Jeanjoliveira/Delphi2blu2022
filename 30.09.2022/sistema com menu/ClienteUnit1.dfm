@@ -1,0 +1,30 @@
+object Frmcliente: TFrmcliente
+  Left = 0
+  Top = 0
+  Align = alTop
+  Caption = 'Clientes'
+  ClientHeight = 281
+  ClientWidth = 392
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 104
+    Top = 0
+    Width = 392
+    Height = 39
+    Caption = 'CLIENTES'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+end

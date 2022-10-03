@@ -1,0 +1,72 @@
+unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    Label1: TLabel;
+    Mnome: TMemo;
+    Mcondição: TMemo;
+    btmResult: TButton;
+    Label2: TLabel;
+    Label3: TLabel;
+    Msexo: TMemo;
+    Label4: TLabel;
+    Midade: TMemo;
+    Label5: TLabel;
+    procedure btmResultClick(Sender: TObject);
+  private
+ FxcontadorI, FxcontadorS,   FxcontadorF,  FxcontadorM : integer;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.btmResultClick(Sender: TObject);
+  var
+  xidade : integer ;
+  xnome, xsexo, xcondição : string;
+
+begin
+
+
+      xnome := inputbox('Informar','Informe um nome','');
+      xsexo := (inputbox('Informar','Informe o Sexo',''));
+      xcondição := (inputbox('Informar','Informe a condição de saúde',''));
+      xidade := strtoint(inputbox('Informar','Informe a idade','  '));
+
+      Mnome.lines.add(xnome);
+      Msexo.lines.add(xsexo);
+      Midade.lines.add(inttostr(xidade));
+      Mcondição.lines.add (xcondição);
+
+
+
+      if AnsiLowerCase(xsexo) = 'masculino'  then
+      FxcontadorM   := FxcontadorM +1;
+
+      if AnsiLowerCase(xsexo) = 'feminino' then
+      FxcontadorF   := FxcontadorF +1;
+
+
+
+        if AnsiLowerCase(xcondição) = 'apto para servir' then
+      FxcontadorS   := FxcontadorS +1
+        else if AnsiLowerCase(xcondição) = 'inapto para servir' then
+      FxcontadorS   := FxcontadorS +1;
+
+        if  xidade  = (xidade)then
+      FxcontadorI   := FxcontadorI +1;
+
+end;
+end.

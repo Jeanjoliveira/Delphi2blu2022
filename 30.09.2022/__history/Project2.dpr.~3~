@@ -1,0 +1,18 @@
+program Project2;
+
+uses
+  Vcl.Forms,
+  Unit2 in 'Unit2.pas' {Form2},
+  ClienteUnit1 in 'ClienteUnit1.pas' {Frmcliente},
+  Unit1 in 'Unit1.pas' {FRMCLIENTES},
+  FORNECEDORESUnit3 in 'FORNECEDORESUnit3.pas' {FRMFORNECEDORES},
+  FORNECEDORESUnit4 in 'FORNECEDORESUnit4.pas' {FRMPROJETOS};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm2, Form2);
+  Application.Run;
+end.

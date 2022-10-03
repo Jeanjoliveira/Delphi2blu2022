@@ -1,0 +1,119 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TEnumComandos = (cmdFor, cmdWhile, cmdRepeat);
+
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    edtnumero1: TEdit;
+    edtnumero2: TEdit;
+    btmexecutar: TButton;
+    Rgcomandos: TRadioGroup;
+
+    procedure btmexecutarClick(Sender: TObject);
+  private
+
+  //   Metodo
+
+  function comandoFor: integer;
+  function comandoWhile: integer;
+  function comandoRepeat: integer;
+
+
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+Function Tform1.comandoFor: Integer;
+
+var
+I, xsoma , xnumero1, xnumero2 : integer;
+
+begin
+
+xsoma := 0;
+xnumero1 :=  strtoint (edtNumero1.Text) ;
+ xnumero2 :=  strtoint (edtNumero2.Text) ;
+
+ for I  := xNumero1 to xNumero2 do
+       if I mod 2 = 0  then
+       xsoma := xsoma + I;
+
+  Result := xsoma;
+end;
+
+
+Function Tform1.comandoWhile: Integer;
+
+var
+I, xnumero1, xnumero2, xdias , xsaldo : integer;
+
+begin
+  xnumero1 :=  strtoint (edtNumero1.Text) ;
+  xnumero2 :=  strtoint (edtNumero2.Text) ;
+  xdias := 0;
+     xsaldo := xnumero1;
+     while xsaldo > 0 do
+       begin
+         xsaldo := xsaldo - xnumero2;
+         xdias := xdias + 1 ;
+       end;
+     Result := xdias;
+
+end;
+
+Function Tform1.comandoRepeat: Integer;
+var
+I , xdias , xsaldo, xnumero2, xnumero1 : integer;
+
+   begin
+     xnumero1 :=  strtoint (edtNumero1.Text) ;
+     xnumero2 :=  strtoint (edtNumero2.Text) ;
+     xsaldo := 0 ;
+        repeat
+      xsaldo := xnumero2 + xsaldo ;
+      xdias := xdias + 1;
+
+
+
+     until xsaldo >= xnumero1 ;
+
+
+    Result := xdias;
+   end;
+
+procedure TForm1.btmexecutarClick(Sender: TObject);
+
+ begin
+
+ case TenumComandos(rgComandos.ItemIndex) of
+   CmdFor:
+     Showmessage(inttostr(self.comandofor));
+
+
+   cmdwhile:
+     Showmessage(inttostr(self.comandoWhile));
+
+
+
+   cmdrepeat:
+     showmessage ('Você atingira sua meta em ' + inttostr(self.comandoRepeat));
+
+   end;
+ end;
+
+end.
+

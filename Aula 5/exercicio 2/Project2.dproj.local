@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/12 19:06:11.000.355,=C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/12 19:18:54.000.246,=C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/09/12 19:19:56.000.524,C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\Aula 5\exercicio 2\Unit2.pas</Transaction>
+    <Transaction>2022/09/12 19:20:00.000.150,C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\Aula 5\exercicio 2\Unit1.pas</Transaction>
+    <Transaction>2022/09/12 19:20:00.000.150,C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\jeanjefferson\Desktop\exercicios Delphi\Aula 5\exercicio 2\Unit1.dfm</Transaction>
+    <Transaction>2022/09/12 19:20:03.000.874,C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\jeanjefferson\Desktop\exercicios Delphi\Aula 5\exercicio 2\Project2.dproj</Transaction>
+    <Transaction>2022/09/12 19:20:12.000.542,=C:\Users\jeanjefferson\Desktop\exercicios Delphi\Aula 5\exercicio 2\Unit3.pas</Transaction>
+    <Transaction>2022/09/12 19:20:28.000.689,=C:\Users\jeanjefferson\Desktop\exercicios Delphi\Aula 5\exercicio 2\Unit3.pas</Transaction>
+    <Transaction>2022/09/12 19:21:23.000.784,C:\Users\jeanjefferson\Desktop\exercicios Delphi\Aula 5\exercicio 2\Unit2.pas=C:\Users\jeanjefferson\Desktop\exercicios Delphi\Aula 5\exercicio 2\Ucalculadora.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,65 @@
+program Project1;
+
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+type
+  tHora = (opmeiodia= 12, opmeianoite = 18);
+
+  function Maioridade (const aidade: byte): boolean;
+
+  {if aidade>= 18 then
+    result := true
+    else
+    result:= false;
+    end}
+
+  begin
+    if aidade>= 18 then
+     result := true
+    else
+     result:= false;
+  end;
+
+  function periodo (const ahora: byte): string;
+  begin
+    if ahora <12 then
+      result := 'bom dia'
+    else if ahora <18 then
+      result := 'boa tarde'
+    else
+      result := 'boa noite';
+  end;
+
+
+  var
+   xidade: byte;
+   xhora: byte;
+   xstrperiodo : string;
+   xentrada: string;
+  begin
+  try
+    writeln ('ola entre com sua idade:');
+    readln (xidade);
+
+    writeln ('entre com o horario:');
+    readln (xhora);
+
+    xstrperiodo := periodo (xhora);
+
+    if maioridade (xidade) then
+      writeln (xstrperiodo + ' vocé é maior de idade.')
+    else
+      writeln (  xstrperiodo + ' vocé nao é maior de idade.');
+
+      readln (xentrada);
+  except
+    on E: Exception do
+     writeln (E.Classname, ': ', E.message);
+  end;
+end.

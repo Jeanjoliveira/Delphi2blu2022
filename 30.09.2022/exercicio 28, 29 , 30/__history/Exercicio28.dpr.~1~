@@ -1,0 +1,14 @@
+program Exercicio28;
+
+uses
+  Vcl.Forms,
+  Unit2 in 'Unit2.pas' {frmexercicio28};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tfrmexercicio28, frmexercicio28);
+  Application.Run;
+end.
