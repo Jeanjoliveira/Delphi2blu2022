@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/05 21:05:41.000.292,=C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/05 21:38:20.000.145,C:\Users\jeanjefferson\Desktop\Exercicio 1\Unit1.dfm=C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/05 21:38:20.000.145,C:\Users\jeanjefferson\Desktop\Exercicio 1\Unit1.pas=C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/05 21:38:23.000.314,C:\Users\jeanjefferson\Desktop\Exercicio 1\Project1.dproj=C:\Users\jeanjefferson\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/09/05 21:45:30.000.260,=C:\Users\jeanjefferson\Desktop\Exercicio 1\Unit2.pas</Transaction>
+    <Transaction>2022/09/05 21:45:41.000.453,C:\Users\jeanjefferson\Desktop\Exercicio 1\Unit2.pas=C:\Users\jeanjefferson\Desktop\Exercicio 1\Uanimal.pas</Transaction>
+    <Transaction>2022/09/06 18:54:43.000.042,=C:\Users\jeanjefferson\Desktop\Exercicio 1\Unit2.pas</Transaction>
+    <Transaction>2022/09/06 18:55:05.000.793,C:\Users\jeanjefferson\Desktop\Exercicio 1\usessoes.pas=C:\Users\jeanjefferson\Desktop\Exercicio 1\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

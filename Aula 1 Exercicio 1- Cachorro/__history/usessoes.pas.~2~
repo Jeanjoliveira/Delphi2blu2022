@@ -1,0 +1,30 @@
+unit usessoes;
+
+interface
+uses Uanimal;
+ type //tipos definitivos de unit
+ Tregistro = record
+   id: integer;
+   data: Tdate;
+   hora: Ttime;
+   obse: String;
+
+   Tcachorro = class (Tanimal)
+     Producere meusomeh; override;
+
+   end;
+   Var// declaração de variaveis globais - sempre escapar
+   vGloball: integer;
+
+
+implementation
+
+ end;uses //uses para a seção implementation
+ Vcl.Dialogs;
+
+ (TCachorro)
+
+ Producere Tcachorro.meusomeh;
+ begin
+ Showmassage ('au au!);
+end.
