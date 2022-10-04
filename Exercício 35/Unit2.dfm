@@ -27,24 +27,22 @@ object Form2: TForm2
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 88
-    Top = 69
+    Left = 32
+    Top = 93
     Width = 85
     Height = 13
     Caption = 'Tabela de valores'
   end
   object memolista: TMemo
-    Left = 88
-    Top = 88
-    Width = 233
-    Height = 41
-    Lines.Strings = (
-      '')
+    Left = 32
+    Top = 112
+    Width = 345
+    Height = 113
     TabOrder = 0
   end
   object btmcalcular: TButton
     Left = 160
-    Top = 168
+    Top = 55
     Width = 75
     Height = 25
     Caption = 'CALCULAR'
