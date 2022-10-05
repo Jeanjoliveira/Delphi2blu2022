@@ -47,13 +47,13 @@ begin
 
   case TEnumCliente(xcliente) of
     tcResidencia:
-      xvalor := xconsumo * 0.60;
+      xvalor := xconsumo * 0.80;
     tcComercio:
-      xvalor := xconsumo * 0.48;
+      xvalor := xconsumo * 0.68;
     tcIndustria:
-      xvalor := xconsumo  *1.29;
+      xvalor := xconsumo  *1.49;
     tcRural:
-      xvalor := xconsumo  * 2.18 ;
+      xvalor := xconsumo  * 3.18 ;
   end;
 
   xvalor := xvalor - xdesconto;
